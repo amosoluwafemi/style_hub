@@ -7,7 +7,7 @@ require_once 'includes/header.php';
     <div class="col-md-5 reveal"> <div class="card p-4 p-md-5 shadow-lg border-0">
             <div class="text-center mb-4 reveal delay-1">
                 <h2 class="fw-800 product-name">Welcome Back</h2>
-                <p class="text-white-50 small">Login to manage your orders and profile.</p>
+                <p class="text-dark-50 small">Login to manage your orders and profile.</p>
             </div>
 
             <?php if (isset($_SESSION['success_msg'])): ?>
@@ -26,7 +26,7 @@ require_once 'includes/header.php';
                 </div>
 
                 <div class="mb-4">
-                    <label class="form-label small fw-bold text-uppercase opacity-75">Password</label>
+                    <label class="form-label small fw-bold text-uppercase ">Password</label>
                     <div class="input-group">
                         <span class="input-group-text"><i class="bi bi-lock"></i></span>
                         <input type="password" name="password" class="form-control" placeholder="••••••••" required>
@@ -41,8 +41,8 @@ require_once 'includes/header.php';
                 </button>
                 
                 <div class="text-center mt-3">
-                    <p class="small text-white-50">Don't have an account? 
-                        <a href="register.php" class="text-white fw-bold text-decoration-none">Create One</a>
+                    <p class="small text-dark-50">Don't have an account? 
+                        <a href="register.php" class="text-dark fw-bold text-decoration-none">Create One</a>
                     </p>
                 </div>
             </form>

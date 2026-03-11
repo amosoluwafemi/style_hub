@@ -85,7 +85,7 @@ $user = $stmt->fetch();
             </div>
 
             <div class="mt-4 text-center">
-                <p class="text-muted small">Looking for your purchases? <a href="orders.php" class="text-primary fw-bold text-decoration-none">View Order History</a></p>
+                <p class="text-white small">Looking for your purchases? <a href="orders.php" class="text-primary fw-bold text-decoration-none">View Order History</a></p>
             </div>
         </div>
     </div>

@@ -50,7 +50,8 @@ if ($result && $result['status'] && $result['data']['status'] === 'success') {
 
         // 4. Clear the cart and redirect to success
         unset($_SESSION['cart']);
-        header("Location: orders.php?status=success");
+        // Inside your process_order.php success logic:
+        header("Location: success.php?reference=" . $reference);
         exit();
 
     } catch (Exception $e) {
